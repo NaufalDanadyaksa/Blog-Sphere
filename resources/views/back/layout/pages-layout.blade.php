@@ -22,6 +22,7 @@
     <link href="./back/dist/css/tabler-vendors.min.css?1684106062" rel="stylesheet" />
     <link href="./back/dist/css/demo.min.css?1684106062" rel="stylesheet" />
     @stack('stylsheets')
+    @livewireStyles
     <style>
         @import url('https://rsms.me/inter/inter.css');
 
@@ -58,6 +59,8 @@
     <script src="./back/dist/libs/jsvectormap/dist/js/jsvectormap.min.js?1684106062" defer></script>
     <script src="./back/dist/libs/jsvectormap/dist/maps/world.js?1684106062" defer></script>
     @stack('scripts')
+    
+    @livewireScripts
     <script src="./back/dist/libs/jsvectormap/dist/maps/world-merc.js?1684106062" defer></script>
     <!-- Tabler Core -->
     <script src="./back/dist/js/tabler.min.js?1684106062" defer></script>
